@@ -9,7 +9,7 @@ export default function Hero() {
         </h1>
 
         <p className="hero-sub">
-          Select a stack, choose your options, download ready-to-use config files.
+          // Select a stack, choose your options, download ready-to-use config files.
           <code>Spring Boot</code>, <code>FastAPI</code>, <code>Docker</code>, <code>NestJS</code> 
         </p>
 

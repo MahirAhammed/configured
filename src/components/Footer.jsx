@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-inner">
-        <span className="footer-logo">ConFigured</span>
+        <span className="footer-logo">CONFIGURED</span>
         <p className="footer-note">
           No account needed · Files generated in your browser
         </p>
