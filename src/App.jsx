@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import SpringPage from './pages/SpringPage'
-import FastApiPage from './pages/FastApiPage'
 import './App.css'
 
 export default function App() {
