@@ -10,7 +10,7 @@ const CATEGORIES = [
     description: 'application.properties and .yml for datasource, JPA, logging, and more.',
     icon: '/logos/spring.svg',
     outputs: ['.properties', '.yml'],
-    route: '/spring',
+    route: '/spring-boot',
   },
   {
     id: 'fastapi',
@@ -20,6 +20,8 @@ const CATEGORIES = [
     icon: '/logos/fastapi.svg',
     outputs: ['.env', 'config.py'],
     route: '/fastapi',
+    soon: true,
+
   },
   {
     id: 'docker',
@@ -29,6 +31,8 @@ const CATEGORIES = [
     icon: '/logos/docker.svg',
     outputs: ['docker-compose.yml', 'Dockerfile', '.dockerignore'],
     route: '/docker',
+    soon: true,
+
   },
   {
     id: 'express',
@@ -38,6 +42,8 @@ const CATEGORIES = [
     icon: '/logos/expressjs.svg',
     outputs: ['.env', 'app.module snippet'],
     route: '/express',
+    soon: true,
+
   },
   {
     id: 'gitignore',
@@ -47,6 +53,8 @@ const CATEGORIES = [
     icon: '/logos/git.svg',
     outputs: ['.gitignore'],
     route: '/gitignore',
+    soon: true,
+
   },
   {
     id: 'soon',
