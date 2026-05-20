@@ -9,7 +9,7 @@ A config file generator for common developer stacks. Pick a framework, choose yo
 | Generator | Output files | Status |
 |-----------|-------------|--------|
 | Spring Boot | `application.properties`, `application.yml` | Live |
-| FastAPI | `.env`, `config.py` | Coming soon |
+| FastAPI | `.env`, `config.py` | Live |
 | Docker | `docker-compose.yml`, `Dockerfile`, `.dockerignore` | Coming soon |
 | Express | `.env`, `db.js` | Coming soon |
 | .gitignore | `.gitignore` | Coming soon |
