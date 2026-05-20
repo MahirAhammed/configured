@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import SpringPage from './pages/SpringPage'
+import FastApiPage from './pages/FastApiPage'
 import './App.css'
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/spring-boot" element={<SpringPage />} />
+            <Route path="/fastapi" element={<FastApiPage />} />
           </Routes>
         </main>
         <Footer />

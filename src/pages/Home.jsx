@@ -20,8 +20,6 @@ const CATEGORIES = [
     icon: '/logos/fastapi.svg',
     outputs: ['.env', 'config.py'],
     route: '/fastapi',
-    soon: true,
-
   },
   {
     id: 'docker',
