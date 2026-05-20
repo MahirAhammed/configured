@@ -2,7 +2,7 @@
 
 A config file generator for common developer stacks. Pick a framework, choose your options, and download ready-to-use configuration files.
 
-**Live Demo:** 
+**Live Demo:** https://project-513fd.vercel.app/
 
 ## Supported generators
 
