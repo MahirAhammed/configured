@@ -29,8 +29,6 @@ const CATEGORIES = [
     icon: '/logos/docker.svg',
     outputs: ['docker-compose.yml', 'Dockerfile', '.dockerignore'],
     route: '/docker',
-    soon: true,
-
   },
   {
     id: 'express',

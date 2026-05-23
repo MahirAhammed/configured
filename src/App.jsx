@@ -3,6 +3,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import SpringPage from './pages/SpringPage'
 import FastApiPage from './pages/FastApiPage'
+import DockerPage from './pages/DockerPage'
 import './App.css'
 
 export default function App() {
@@ -17,6 +18,8 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/spring-boot" element={<SpringPage />} />
             <Route path="/fastapi" element={<FastApiPage />} />
+            <Route path="/docker" element={<DockerPage />} />
+
           </Routes>
         </main>
         <Footer />
