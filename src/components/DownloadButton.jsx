@@ -7,7 +7,7 @@ export default function DownloadButton({ files, filename = "config.zip" }) {
 
   return (
     <button className="download-btn" onClick={handleDownload}>
-      Download {files.length > 1 ? zipName : files[0]?.filename}
+      Download {files.length > 1 ? filename : files[0]?.filename}
     </button>
   );
 }
