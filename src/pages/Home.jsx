@@ -31,17 +31,6 @@ const CATEGORIES = [
     route: '/docker',
   },
   {
-    id: 'express',
-    name: 'ExpressJS',
-    lang: 'TypeScript',
-    description: 'ConfigModule, TypeORM, JWT, CORS, and Redis cache settings.',
-    icon: '/logos/expressjs.svg',
-    outputs: ['.env', 'app.module snippet'],
-    route: '/express',
-    soon: true,
-
-  },
-  {
     id: 'gitignore',
     name: '.gitignore',
     lang: 'All stacks',
@@ -49,6 +38,15 @@ const CATEGORIES = [
     icon: '/logos/git.svg',
     outputs: ['.gitignore'],
     route: '/gitignore',
+  },
+  {
+    id: 'express',
+    name: 'ExpressJS',
+    lang: 'TypeScript',
+    description: 'ConfigModule, TypeORM, JWT, CORS, and Redis cache settings.',
+    icon: '/logos/expressjs.svg',
+    outputs: ['.env', 'app.module snippet'],
+    route: '/express',
     soon: true,
 
   },
